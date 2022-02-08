@@ -1,5 +1,5 @@
 import React, {Component, useState, useEffect} from 'react';
-import { BsHouseDoorFill,BsFillHeartFill,BsFillPersonFill } from 'react-icons/bs';
+import { BsHouseDoorFill,BsFillHeartFill,BsFillPersonFill,BsThreeDots } from 'react-icons/bs';
 import { RiFileSearchFill } from 'react-icons/ri';
 import { AiFillCamera } from 'react-icons/ai';
 
@@ -95,7 +95,16 @@ export default class App extends React.Component {
         </div>
       </div>
       <div className="window-body">
-        <p>There's so much room for activities!</p>
+        <div className='card'>
+          <div className='card-header'>
+            <div className='card-icon'><BsFillHeartFill/></div>
+            <div className='card-name'>chanolee</div>
+            <div className='card-btn'><button><BsThreeDots/></button></div>
+          </div>
+          <div className='card-body'></div>
+          <div className='card-footer'></div>
+        </div>
+        
       </div>
 
       <div class="status-bar">
