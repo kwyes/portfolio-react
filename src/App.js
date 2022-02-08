@@ -26,6 +26,7 @@ export default class App extends React.Component {
       date: time.toLocaleString('en-US', { hour: 'numeric',minute:'numeric', hour12: true })
     });
   };
+  
 
   render() {
     return (

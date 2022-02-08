@@ -208,11 +208,11 @@ background-image: url(https://win98icons.alexmeub.com/icons/png/desktop-4.png);
   border-bottom-color: #131313;
   border-left-color: #fff;
   background: #c0c0c0;
-  width: 90%;
+  width: 100%;
   max-width: 500px;
   position: fixed;
-  top: 25%;
-  left: 25%;
+  top: 11%;
+  left: 34%;
   resize: both;
   
   .window-toolbar{
@@ -365,4 +365,5 @@ background-image: url(https://win98icons.alexmeub.com/icons/png/desktop-4.png);
     height: 34px;
     font-size: 1.3rem;
     padding-top : 5px;
+    width:100%;
 }
